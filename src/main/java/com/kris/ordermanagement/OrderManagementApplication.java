@@ -8,10 +8,7 @@ import org.springframework.core.env.AbstractEnvironment;
 public class OrderManagementApplication {
 
     public static void main(String[] args) {
-
         System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, System.getenv("SPRING_PROFILE"));
-
-
         SpringApplication.run(OrderManagementApplication.class, args);
     }
 

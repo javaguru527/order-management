@@ -1,4 +1,4 @@
-package com.kris.ordermanagement;
+package com.kris.ordermanagement.bootstrap;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
